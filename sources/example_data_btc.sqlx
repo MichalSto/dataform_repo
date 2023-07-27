@@ -1,0 +1,7 @@
+config {
+    type: "declaration",
+    database: "hsbc-393107",
+    schema: "example_dataset",
+    name: "example_data_btc",
+    description: "raw data for project"
+}
