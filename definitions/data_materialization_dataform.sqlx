@@ -1,4 +1,4 @@
-config { type: "table",
+config { type: "view",
         description: "table materialized by DataForm"}
 
 select * from ${ref("data_selection_dataform")}

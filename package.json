@@ -1,0 +1,6 @@
+{
+  "name": "test_repo_data_form_123",
+  "dependencies": {
+    "@dataform/core": "2.4.2"
+  }
+}
