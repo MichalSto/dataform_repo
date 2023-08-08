@@ -1,4 +1,7 @@
 config { type: "table",
         description: "table materialized by DataForm"}
 
-select OpenTime, OpenPrice, ClosePrice from ${ref("data_selection_dataform")}
+select OpenTime, OpenPrice, ClosePrice, ARRAY
+  (SELECT 1 UNION ALL
+   SELECT 2 UNION ALL
+   SELECT 3) AS new_array from ${ref("data_selection_dataform")}
