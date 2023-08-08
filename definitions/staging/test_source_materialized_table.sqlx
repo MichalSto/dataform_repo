@@ -13,4 +13,4 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-SELECT * FROM ${ref("data_materialization_dataform")} LIMIT 1
+SELECT new_array FROM ${ref("data_materialization_dataform")} LIMIT 1
