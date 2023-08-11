@@ -13,4 +13,4 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-SELECT *, current_date() as datecurrent FROM ${ref("example_data_btc")} where OpenTime > CAST(DATE(2020,6,1) as TIMESTAMP)
+SELECT *, current_date() as datecurren FROM ${ref("example_data_btc")} where OpenTime > CAST(DATE(2020,6,1) as TIMESTAMP)
